@@ -1,10 +1,37 @@
 # Python
-venv/
-__pycache__/
 *.pyc
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
 
-# 环境变量（重要！API Key 不能上传）
+# 环境变量
 .env
+*.env
 
-# Mac
+# 数据库
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
 .DS_Store
+Thumbs.db
+
+# 日志
+*.log
+
+# 临时文件
+tmp/
+temp/
